@@ -1,34 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 body {
-    max-width: 1440px;
-    background-color: hsl(0, 0%, 95%);
+  max-width: 100vh;
+  background-color: hsl(0, 0%, 95%);
 }
 
 .cars {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .sedan-card {
-    background-color: hsl(31, 77%, 52%);
+  background-color: hsl(31, 77%, 52%);
 }
 
 .suv-card {
-    background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
 }
 
 .luxury-card {
-    background-color: hsl(179, 100%, 13%);
+  background-color: hsl(179, 100%, 13%);
 }
 
 h1 {
-    font-family: 'Big Shoulders Display';
-    color: hsl(0, 0%, 95%)
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  padding-left: 1.5rem;
 }
 
 p {
-    font: 'Lexend Deca';
-    font-size: 15px;
-    color: hsla(0, 0%, 100%, 0.75)
+  font: 'Lexend Deca, sans-sarif';
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  line-height: 1.6;
+}
+
+.car-img {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+.sedan-card,
+.luxury-card,
+.suv-card {
+  margin-top: 100px;
+}
+
+.sedan-card {
+  margin-left: 50px;
+}
+
+.luxury-card {
+  margin-right: 50px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.sedan-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+    color: hsl(184, 100%, 22%)
+}
+
+.luxury-btn {
+    color: hsl(179, 100%, 13%)
 }
