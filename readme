@@ -1,0 +1,29 @@
+# Frontend Mentor - 3-column preview card component solution
+
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## The challenge
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+### What I learned
+- Currently I am in the Nucamp course working on React and React Native, so this kind of project was a great refresher on just working with HTML and CSS. I enjoy using Flexbox again, it made it easy to stack the cards on top of each other when responding to mobile view. What I did learn was that I had to change all the padding and margins when changing the viewports. 
+
+### Continued development
+- In the Nucamp course, we briefly have gone over SASS/SCSS and it would have been handy to have some variables and apply the DRY Principle. 
+
+### Useful resources
+
+- [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-properties) - This guide was a great refresher on how to use flexbox, which came in handy setting up the car cards and responding to the viewport change. 
+
+- [CSS Rounded Corners](https://www.w3schools.com/css/css3_borders.asp) - I did forget how to round corners and w3schools came to rescue here!
+
+## Author
+
+- Github - [Nico Carlson](https://github.com/ncarlson55)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ncarlson55)
