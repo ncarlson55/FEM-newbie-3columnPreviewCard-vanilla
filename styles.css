@@ -42,7 +42,7 @@ h1 {
 }
 
 p {
-  font: 'Lexend Deca, sans-sarif';
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.75);
   padding-right: 1.5rem;
@@ -54,7 +54,7 @@ p {
 }
 
 .button {
-  font-family: 'Lexend Deca', monospace;
+  font-family: 'Lexend Deca', sans-serif;
   background-color: hsl(0, 0%, 95%);
   border: none;
   padding: 10px 20px;
