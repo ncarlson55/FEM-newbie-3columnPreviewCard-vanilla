@@ -1,0 +1,20 @@
+body {
+    max-width: 1440px;
+}
+
+.cars {
+    display: flex;
+    flex-direction: row;
+}
+
+.sedan-card {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-card {
+    background-color: hsl(179, 100%, 13%);
+}
